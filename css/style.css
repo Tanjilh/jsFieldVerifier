@@ -1,0 +1,45 @@
+body {
+  background-image: url(https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#container {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+
+#form {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(6, 6, 6, 0.3);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#form input {
+  font-family: sans-serif;
+  outline: 1;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 2px;
+  box-sizing: border-box;
+  border: 3px solid #888;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+input::placeholder {
+  color: rgb(6,6,6);
+  font-style: oblique;
+}
+
+input:focus {
+  outline: none;
+}
